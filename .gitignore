@@ -1,0 +1,61 @@
+# Maven
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+
+.classpath
+.project
+.settings/
+
+# VS Code
+
+.vscode/
+
+# Java
+
+*.class
+*.log
+
+# OS files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Maven wrapper
+
+.mvn/wrapper/maven-wrapper.properties
+
+# Environment variables / secrets
+
+.env
+.env.*
+
+# Spring Boot local configuration
+
+application-local.properties
+application-local.yml
+
+# Temporary files
+
+*.tmp
+*.swp
+*~
+
+# Build files
+
+*.jar
+*.war
+*.ear
